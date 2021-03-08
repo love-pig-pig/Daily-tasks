@@ -1,9 +1,9 @@
 # File: .github/workflows/repo-sync.yml
 name: 同步上游仓库
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
-  workflow_dispatch:
   watch:
     types: started
   push:
