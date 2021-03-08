@@ -1,0 +1,35 @@
+name: 族动悦
+on:
+  workflow_dispatch:
+  schedule:
+     - cron: '0,30 0-13 * * *'
+  watch:
+    types: started
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+
+    steps:
+      - name: Checkout
+        run: |
+          git clone https://github.com/love-pig-pig/Daily-tasks.git ~/Daily-tasks
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: npm install
+        run: |
+          cd ~/Daily-tasks
+          git checkout master
+          npm install
+      - name: '运行 【悦动族】'
+        run: |
+          cd ~/Daily-tasks
+          node Task/yuedongzu.js
+        env:
+          YDZ_yuedongzuTOKEN: ${{ secrets.YDZ_yuedongzuTOKEN }}
+          YDZ_CASH: ${{ secrets.YDZ_CASH }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_USER_ID: ${{ secrets.TG_USER_ID }}
+
