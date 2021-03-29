@@ -39,11 +39,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync 6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+      - name: sync 同步上游仓库
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/ziye888/JavaScript.git"
           source_branch: "main"
-          destination_branch: "master"
+          destination_branch: "No-Fork"
           github_token: ${{ secrets.PAT }}
