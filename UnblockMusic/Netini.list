@@ -9,4 +9,4 @@
 🎧𝐌𝐮𝐬𝐢𝐜9 = Shadowsocks,music.desperadoj.com,30003,aes-128-gcm,"desperadoj.com_free_proxy_emx2"
 🎧𝐌𝐮𝐬𝐢𝐜10 = Shadowsocks,proxy.plusmedia.site,58080,rc4-md5,"ieG9l1nte5eo7IBZas84jLi"
 🎧𝐌𝐮𝐬𝐢𝐜11 = Shadowsocks,proxy.plusmedia.site,58081,rc4-md5,"ieG9l1nte5eo7IBZas84jLi"
-🎧𝐌𝐮𝐬𝐢𝐜12 = Shadowsocks,127.0.0.1:8080,aes-128-gcm,"This_proxy_is_for_free"
+🎧𝐌𝐮𝐬𝐢𝐜12 = Shadowsocks,127.0.0.1,8080,aes-128-gcm,"This_proxy_is_for_free"
