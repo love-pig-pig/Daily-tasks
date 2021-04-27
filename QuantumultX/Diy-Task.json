@@ -33,6 +33,7 @@
 		"0 3 * * * https://cdn.jsdelivr.net/gh/love-pig-pig/Daily-tasks@main/script/Delete_Cache.js, enable=false, tag=抹掉Boxjs订阅缓存",
 		"2 0 * * * https://ooxx.be/js/jegotrip.js, tag=无忧行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jegotrip.png, enabled=true",
 		"5 2 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ttwkxcx.png, enabled=true",
+	        "5 2 0 * * * https://raw.githubusercontent.com/DD-D1/2020scripts/master/ttwbxcxSign.js, tag=天天挖矿（DD版）, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ttwkxcx.png, enabled=true",
 		"4 3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
 		"20 3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
 		"0 4 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
@@ -41,9 +42,9 @@
 		"0 0 7,22 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, enabled=true",
 		"30 9 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url= https://raw.githubusercontent.com/Orz-3/mini/master/Color/txnews.png, enabled=true",
 		"0,30 0-20 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,tag=趣头条, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/qtt.png, enabled=true",
-	    "15 08 2-18 4 * https://raw.githubusercontent.com/sngxpro2/self/main/delete/gone/monk_skyworth.js, tag=京东创维全勤奖(不加购), img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/monk.png, enabled=true",   
+	        "15 08 2-18 4 * https://raw.githubusercontent.com/sngxpro2/self/main/delete/gone/monk_skyworth.js, tag=京东创维全勤奖(不加购), img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/monk.png, enabled=true",   
 
 		"5,10 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
-	    "0 * * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=京东整点京豆红包雨, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+	        "0 0-23/1 * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=京东整点京豆红包雨, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
      ]
 }
