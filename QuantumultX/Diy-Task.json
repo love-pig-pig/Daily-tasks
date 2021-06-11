@@ -2,7 +2,7 @@
     "name": "DIY组合一整理",
     "description": "请善用搜索功能，如搜索京东可查所有京东脚本",
     "task": [   
-	        "20 17 * * * https://raw.githubusercontent.com/love-pig-pig/Jdong/main/Shop/xmSports.js,tag=小米运动, enabled=true",
+	        "20 17 * * * https://raw.githubusercontent.com/love-pig-pig/Jdong/main/Shop/xmSports.js,tag=小米运动, img-url=https://raw.githubusercontent.com/love-pig-pig/Jdong/main/icon/xmyd.png,enabled=true",
 		"20 11 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true",
 		"20 11 */5 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, tag=中青看点阅读, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true",
 		"20 13 * * * https://cdn.jsdelivr.net/gh/love-pig-pig/Daily-tasks@ztxtop/youth_banner.js, tag=中青看看赚, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true",
