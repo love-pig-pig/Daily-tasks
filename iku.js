@@ -1,4 +1,4 @@
-﻿/*
+/*
 机场签到 需要在脚本里填写邮箱密码
 corn 0 0 8 * * ? 
 https://raw.githubusercontent.com/QiFengg/QuantumultX_Conf/main/Scripts/jcCheck.js
@@ -7,13 +7,13 @@ https://raw.githubusercontent.com/QiFengg/QuantumultX_Conf/main/Scripts/jcCheck.
 /*
 1.好家伙机场
 付费 便宜3.99 50g  流量每隔31天重置 签到每天1g-4g随机 可看NF 速度快 提供小火箭下载账号 
-注册地址:haojiahuo.live/auth/register?code=
+注册地址:haojiahuo.live/auth/register?code=FErc
+*/
 let hjh = {
   email: "",
   pwd: "",
 };
-FErc
-*/
+
 /*
 2.ikuuu机场
 注册地址:https://ikuuu.co/auth/register?code=Hg2Y
@@ -31,14 +31,13 @@ let iku = {
 注册地址:https://b.luxury/waf/GGWE9QhLsLE74X422
 白嫖版 注册送10g 签到每天1g-4g随机 速度还行
 付费很多套餐 5块钱一个月300G 流量每隔31天重置 控制套餐购买人数
-
+*/
 
 let jj = {
   email: "",
   pwd: "",
 };
 
-*/
 const $ = new Env("机场签到");
 const notify = $.isNode() ? require("./sendNotify") : "";
 
