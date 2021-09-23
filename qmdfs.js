@@ -33,7 +33,7 @@ let status;
 status = (status = ($.getval("qmdffstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
 let qmdffurlArr = [],qmdffcount = ''
 let qmdffurl= $.isNode() ? (process.env.qmdffurl ? process.env.qmdffurl : "") : ($.getdata('qmdffurl') ? $.getdata('qmdffurl') : "")
-let qmdffurls ='https://fhnc-ii-game.lw0591.com/ws?param=%7B%22UserID%22%3A16744886%2C%22TokenID%22%3A51661991%2C%22MsgID%22%3A2003%2C%22Type%22%3A1%2C%22Diamonds%22%3A-20%7D'
+let qmdffurl ='https://fhnc-ii-game.lw0591.com/ws?param=%7B%22UserID%22%3A16744886%2C%22TokenID%22%3A51661991%2C%22MsgID%22%3A2003%2C%22Type%22%3A1%2C%22Diamonds%22%3A-20%7D'
 
 const logs =0;
 var timestamp = Math.round(new Date().getTime()/1000).toString();
